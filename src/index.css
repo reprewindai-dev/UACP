@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --uacp-bg: #050505;
+  --uacp-card: #0a0a0a;
+  --uacp-border: rgba(255, 255, 255, 0.06);
+  --uacp-accent: #3b82f6;
+  --uacp-accent-secondary: #a855f7;
+  --uacp-text: #e5e7eb;
+  --uacp-muted: rgba(255, 255, 255, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--uacp-bg);
+  color: var(--uacp-text);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.glass-panel {
+  background: var(--uacp-card);
+  border: 1px solid var(--uacp-border);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+}
